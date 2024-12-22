@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criminal Face Detection System</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.min.js"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Criminal Face Detection System</h1>
+        <p class="description">Upload your images and our system will analyse data from our records</p>
+        <div class="upload-section">
+            <input type="file" id="upload" accept="image/*">
+        </div>
+        <div id="output">
+            <img id="uploadedImage" src="" alt="Uploaded Image" style="display:none;"/>
+            <div id="results"></div>
+        </div>
+    </div>
+</body>
+</html>
